@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhai+2&family=Baloo+Bhaina+2&family=Baloo+Chettan+2&family=Baloo+Da+2&family=Baloo+Paaji+2&family=Baloo+Tamma+2&family=Baloo+Tammudu+2&family=Baloo+Thambi+2&Work+Sans&family=Open+Sans&family=Montserrat&family=Noto+Sans&family=Neucha&family=Source+Code+Pro&family=Roboto+Mono&family=Amatic+SC&family=Roboto&family=Inter&family=Roboto+Slab&family=Roboto+Condensed&family=Raleway&family=Merriweather&family=Ubuntu&family=Ubuntu+Condensed&family=Ubuntu+Mono&family=Quicksand&family=Space+Mono&family=DM+Mono&family=DM+Sans&family=DM+Serif+Text&family=DM+Serif+Display&family=Work+Sans&family=Titillium+Web&family=Lobster&family=Comfortaa&family=Staatliches&family=Pacifico&family=Permanent+Marker&family=Patrick+Hand&family=Poppins&family=Alegreya&family=B612&family=Mnavi&family=Varela&family=Vollkorn&family=IBM+Plex+Sans&family=Crimson+Text&family=Cairo&family=BioRhyme&family=Karla&family=Lora&family=Frank+Ruhl+Libre&family=Playfair+Display&family=Archivo&family=Spectral&family=Fjalla+One&family=Rubik&family=Source+Sans+Pro&family=Cardo&family=Cormorant&family=Rakkas&family=Concert+One&family=Yatra+One&family=Orvo&family=Lato&family=Abril+Fatface&family=PT+Serif&family=Old+Standard+TT&&family=Oswald&family=Arvo&family=IBM+Plex+Serif&family=IBM+Plex+Mono&family=Qahiri&family=Zen+Loop&family=Lexend&family=Asar&family=Hahmlet&family=Vibur&family=Josefin+Slab&family=Style+Script&family=Atkinson+Hyperlegible&family=Space+Grotesk&family=Nunito&family=Inconsolata&family=Yomogi&family=Alegreya+SC&family=Mnavish&family=Hind+Siliguri&family=Georama&family=Andada+Pro&family=Recursive&family=Heebo&family=Libre+Franklin&family=Epilogue&family=Rhodium+Libre&family=Nunito+Sans&family=Qahiri&family=Cabin&family=Red+Hat+Display&family=Red+Hat+Text&family=Sora); 
+
+.mce-content-body img[data-mce-selected] {
+    box-shadow: 0 0 0 3px #b4d7ff;
+    outline: none;
+}
+
+img {border-radius: 3px}
+
+.capitalise {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+img.emoji {
+   	height: 1em;
+   	width: 1em;
+   	margin: 0 .05em 0 .1em;
+   	vertical-align: -0.1em;
+}
+
+td > *,
+th > * {
+    margin: 0;
+}
+
+td > * + *,
+th > * + * {
+    margin-top: .75em;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 124, 249, 0.7);
+  border-radius: 9px;	
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 124, 249, 0.8);
+}
+
+@font-face {
+	font-family: Emoji;
+	src: url(msmoji.ttf);
+}
+
+@font-face {
+	font-family: Atiba;
+	src: url(fonts/atiba.ttf) 	
+}
+@font-face {
+	font-family: Less Sans;
+	src: url(fonts/less-sans.otf)
+}
+@font-face {
+	font-family: Kompakt;
+	src: url(fonts/kompakt.otf)
+}
+@font-face {
+	font-family: Carnevalee Freakshow;
+	src: url(fonts/freakshow.ttf)
+}
+@font-face {
+	font-family: Wanderlust;
+	src: url(fonts/wanderlust.ttf)
+}
+@font-face {
+	font-family: HigherFont;
+	src: url(fonts/higher.ttf)
+}
+@font-face {
+	font-family: RedHat;
+	src: url(fonts/redhat.ttf)
+}
+@font-face {
+	font-family: Kumbh Sans;
+    src: url(fonts/kumbh.ttf)	
+}
+@font-face {
+	font-family: Cobaissi;
+    src: url(fonts/cobaissi.ttf)	
+}
+@font-face {
+	font-family: LinumSans;
+    src: url(fonts/wordlite-sans.otf)	
+}
+
+@font-face {
+	font-family: Metropolis;
+	src: url(fonts/metropolis.otf)
+}
+@font-face {
+	font-family: Emoji;
+	src: url(fonts/emoji.woff2);
+}
+
+@keyframes fade {
+	from {opacity: 1}
+	to {opacity: 0}
+}
+
+@keyframes fadepro {
+	from {opacity: 0.5}
+	50% {opacity: 1}
+	to {opacity: 0.5;}
+}
+
+@page table {
+	page-break-inside: avoid;
+}
+
+.mce-toc {
+	border-radius: 12px;
+	border-color: #CCCCCC;
+}
+
+.mce-toc {
+	border-radius: 12px;
+}
+
+body {font-family: Sora, sans-serif;}

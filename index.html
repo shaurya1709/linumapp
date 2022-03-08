@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title id="title">New File - Linum</title>
+   <link rel="icon" href="icon.svg">     
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="application-name" content="WordKit">
+	<script src="tinymce/js/tinymce/tinymce.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+	<script src="script.js"></script>
+	<script src="config.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	  <script src="config.js" type="text/javascript" charset="utf-8"></script>
+ </head>
+ <body>
+<audio src="start.mp3" id="audio"></audio>	 
+<div style="height: 100vh; width: 100vw; background: #FFF; display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0;  cursor: default; user-select: none; transition: opacity 0.5s ease" id="loaddiv" onclick="load()">
+	<img src="icon.svg">
+	<p style="position: fixed; bottom: 0vh; font-size: 0.9em">Click Anywhere To Start Linum</p>
+</div>	 
+ <input type="file" id="up-1" style="display: none;" accept=".lnm"> 
+  <input type="file" id="up-2" style="display: none;" accept=".lnm">     
+ <form method="post" style="position: fixed; top: 0; left: 0; height: 100vh; width: 100%; z-index: -1" id="editor">
+     <div id="main" style="position: fixed; top: 0; left: 0;"></div>
+   </form> 
+<script src="script.js"></script>     
+ </body>
+</html>
