@@ -10,5 +10,5 @@ A Word Processor Based on TinyMCE 5.
 #### *Note: Linum is currently in Beta, if you find a bug, please report it.*
 
 ## Changelog
-#### Version Beta 0.1.0
+#### Version: Beta 0.1.0
 - Hosted Linum on GitHub
